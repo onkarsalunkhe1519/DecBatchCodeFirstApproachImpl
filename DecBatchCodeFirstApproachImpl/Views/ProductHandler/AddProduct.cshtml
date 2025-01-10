@@ -1,0 +1,19 @@
+﻿@model ProductView
+
+<form method="post" enctype="multipart/form-data">
+    Product Name <input type="text" class="form-control" asp-for="PName" placeholder="Enter Product name" /><br />
+
+    Product Category
+    <select asp-for="Pcat" class="form-control">
+        <option>Electronics</option>
+        <option>Foods</option>
+        <option>Cloths</option>
+        <option>Others</option>
+    </select> <br />
+
+    Product Image <input type="file" class="form-control" asp-for="Pimg" /><br />
+
+    Product Price<input type="text" class="form-control" asp-for="Price" placeholder="Enter Product Price" /><br />
+
+    <input type="submit" class="btn btn-primary" value="Add" />
+</form>

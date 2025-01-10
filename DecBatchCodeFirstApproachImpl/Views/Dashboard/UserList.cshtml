@@ -1,0 +1,50 @@
+﻿  @model List<User>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Email</th>
+            <th scope="col">Username</th>
+            <th scope="col">Status</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var d in Model)
+        {
+            <tr>
+                <th scope="row">@d.Id</th>
+                <td>@d.Email</td>
+                <td>@d.Username</td>
+                
+                
+                    @if (d.Status == "Active")
+                {
+                    <td class=" text-success">@d.Status</td>
+                }
+                else
+                    {
+                    <td class="text-danger">@d.Status</td>
+                }
+
+
+                
+                <td>
+                    @if (d.Status == "Active")
+                    {
+                        <a class="btn btn-sm btn-danger" asp-controller="Dashboard" asp-action="UpdateStatus" asp-route-id="@d.Id">Deactive</a>
+                    }
+                    else
+                    {
+                        <a class="btn btn-sm btn-success" asp-controller="Dashboard" asp-action="UpdateStatus" asp-route-id="@d.Id">Active</a>
+                    }
+
+
+                </td>
+            </tr>
+        }
+
+
+    </tbody>
+</table>

@@ -1,0 +1,44 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model List<Employee>
+
+@if (TempData["msg"]!=null)
+{
+    <span class="text-success">@TempData["msg"]</span>
+}
+
+<br />
+<a asp-controller="Emp" asp-action="AddEmp" class="btn btn-info">Add Emp</a> <br />
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Salary</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var d in Model)
+        {
+            <tr>
+                <th scope="row">@d.Id</th>
+                <td>@d.Name</td>
+                <td>@d.Email</td>
+                <td>@d.Salary</td>
+                <td>
+                    <a class="btn btn-sm btn-danger" asp-controller="Emp" asp-action="DeleteEmp" asp-route-id="@d.Id" onclick="return confirm('Are you sure to delete this record?')">Delete</a>
+                    <a class="btn btn-sm btn-success" asp-controller="Emp" asp-action="EditEmp" asp-route-id="@d.Id">Edit</a>
+                </td>
+            </tr>
+        }
+        
+        
+    </tbody>
+</table>

@@ -1,0 +1,35 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model List<Product>
+
+<a class="btn btn-primary" asp-action="AddProduct">Add Product</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">PID</th>
+            <th scope="col">Product Img</th>
+            <th scope="col">Product Name</th>
+            <th scope="col">Product Cat</th>
+
+            <th scope="col">Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var d in Model)
+        {
+            <tr>
+                <th scope="row">@d.Pid</th>
+                <td><img src="@d.Pimg" height="50" width="50" /></td>
+                <td>@d.PName</td>
+                <td>@d.Pcat</td>
+                <td>@d.Price</td>
+            </tr>
+        }
+
+
+    </tbody>
+</table>

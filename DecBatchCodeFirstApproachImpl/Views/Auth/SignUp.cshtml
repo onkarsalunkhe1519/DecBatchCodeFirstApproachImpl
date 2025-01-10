@@ -1,0 +1,14 @@
+﻿
+@model User
+
+<form method="post">
+    Email <input type="text" class="form-control" asp-for="Email" placeholder="Enter Name"/><br />
+
+    Username<input type="text" class="form-control" asp-for="Username" placeholder="Enter Email" /><br />
+
+    Password<input type="text" class="form-control" asp-for="Password" placeholder="Enter Salary" /><br />
+
+    <input type="submit" class="btn btn-primary" value="Save"/>
+</form>
+
+<span class="text-danger">@TempData["existUser"]</span>

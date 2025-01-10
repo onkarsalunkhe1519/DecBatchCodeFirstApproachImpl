@@ -1,0 +1,21 @@
+﻿@model User
+
+<form method="post">
+    Email <input type="text" class="form-control" asp-for="Email" placeholder="Enter Name" /><br />
+
+    Password<input type="text" class="form-control" asp-for="Password" placeholder="Enter Salary" /><br />
+
+    <input type="submit" class="btn btn-primary" value="Save" />
+</form>
+
+<a asp-controller="Auth" asp-action="SignUp">Create New Account</a>
+
+@if (TempData["errpass"]!=null)
+{
+    <span class="text-danger">@TempData["errpass"]</span>
+}
+
+@if (TempData["erremail"] != null)
+{
+    <span class="text-danger">@TempData["erremail"]</span>
+}
