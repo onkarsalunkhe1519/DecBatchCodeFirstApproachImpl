@@ -16,6 +16,7 @@
             <th scope="col">Product Cat</th>
 
             <th scope="col">Price</th>
+            <th scope="col">Action</th>
         </tr>
     </thead>
     <tbody>
@@ -27,6 +28,7 @@
                 <td>@d.PName</td>
                 <td>@d.Pcat</td>
                 <td>@d.Price</td>
+                <td><a asp-action="EditProduct" asp-route-id="@d.Pid">Edit</a></td>
             </tr>
         }
 

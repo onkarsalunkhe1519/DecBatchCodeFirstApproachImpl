@@ -1228,3 +1228,287 @@
 
 1/10/2025 5:22:01 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.ProductList (DecBatchCodeFirstApproachImpl) StatusCode: 200
 
+1/13/2025 2:45:38 PM:Request: GET / - Controller: AuthController, Action: SignIn
+
+1/13/2025 2:45:38 PM:Response: AuthController - DecBatchCodeFirstApproachImpl.Controllers.AuthController.SignIn (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 2:45:42 PM:Request: GET / - Controller: AuthController, Action: SignIn
+
+1/13/2025 2:45:42 PM:Response: AuthController - DecBatchCodeFirstApproachImpl.Controllers.AuthController.SignIn (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 2:46:05 PM:Request: POST / - Controller: AuthController, Action: SignIn
+
+1/13/2025 2:46:13 PM:Response: AuthController - DecBatchCodeFirstApproachImpl.Controllers.AuthController.SignIn (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 2:46:13 PM:Request: GET /Dashboard/UserDashboard - Controller: DashboardController, Action: UserDashboard
+
+1/13/2025 2:46:13 PM:Response: DashboardController - DecBatchCodeFirstApproachImpl.Controllers.DashboardController.UserDashboard (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 2:46:17 PM:Request: GET /Auth/Logout - Controller: AuthController, Action: Logout
+
+1/13/2025 2:46:17 PM:Response: AuthController - DecBatchCodeFirstApproachImpl.Controllers.AuthController.Logout (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 2:46:17 PM:Request: GET / - Controller: AuthController, Action: SignIn
+
+1/13/2025 2:46:17 PM:Response: AuthController - DecBatchCodeFirstApproachImpl.Controllers.AuthController.SignIn (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 2:46:30 PM:Request: POST / - Controller: AuthController, Action: SignIn
+
+1/13/2025 2:46:30 PM:Response: AuthController - DecBatchCodeFirstApproachImpl.Controllers.AuthController.SignIn (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 2:46:30 PM:Request: GET /Dashboard/AdminDashboard - Controller: DashboardController, Action: AdminDashboard
+
+1/13/2025 2:46:30 PM:Response: DashboardController - DecBatchCodeFirstApproachImpl.Controllers.DashboardController.AdminDashboard (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 2:46:42 PM:Request: GET /ProductHandler/ProductList - Controller: ProductHandlerController, Action: ProductList
+
+1/13/2025 2:46:42 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.ProductList (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 2:47:59 PM:Request: GET / - Controller: AuthController, Action: SignIn
+
+1/13/2025 2:47:59 PM:Response: AuthController - DecBatchCodeFirstApproachImpl.Controllers.AuthController.SignIn (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 2:48:26 PM:Request: POST / - Controller: AuthController, Action: SignIn
+
+1/13/2025 2:48:29 PM:Response: AuthController - DecBatchCodeFirstApproachImpl.Controllers.AuthController.SignIn (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 2:48:29 PM:Request: GET /Dashboard/AdminDashboard - Controller: DashboardController, Action: AdminDashboard
+
+1/13/2025 2:48:29 PM:Response: DashboardController - DecBatchCodeFirstApproachImpl.Controllers.DashboardController.AdminDashboard (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 2:48:32 PM:Request: GET /ProductHandler/ProductList - Controller: ProductHandlerController, Action: ProductList
+
+1/13/2025 2:48:32 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.ProductList (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 2:50:01 PM:Request: GET /ProductHandler/ProductList - Controller: ProductHandlerController, Action: ProductList
+
+1/13/2025 2:50:01 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.ProductList (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 2:50:20 PM:Request: GET / - Controller: AuthController, Action: SignIn
+
+1/13/2025 2:50:20 PM:Response: AuthController - DecBatchCodeFirstApproachImpl.Controllers.AuthController.SignIn (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 2:50:57 PM:Request: POST / - Controller: AuthController, Action: SignIn
+
+1/13/2025 2:51:00 PM:Response: AuthController - DecBatchCodeFirstApproachImpl.Controllers.AuthController.SignIn (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 2:51:00 PM:Request: GET /Dashboard/AdminDashboard - Controller: DashboardController, Action: AdminDashboard
+
+1/13/2025 2:51:00 PM:Response: DashboardController - DecBatchCodeFirstApproachImpl.Controllers.DashboardController.AdminDashboard (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 2:51:01 PM:Request: GET /ProductHandler/ProductList - Controller: ProductHandlerController, Action: ProductList
+
+1/13/2025 2:51:02 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.ProductList (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 2:51:03 PM:Request: GET /ProductHandler/EditProduct/1 - Controller: ProductHandlerController, Action: EditProduct
+
+1/13/2025 2:51:03 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.EditProduct (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 2:51:10 PM:Request: POST /ProductHandler/EditProduct/1 - Controller: ProductHandlerController, Action: EditProduct
+
+1/13/2025 2:51:10 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.EditProduct (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 2:51:16 PM:Request: GET /ProductHandler/ProductList - Controller: ProductHandlerController, Action: ProductList
+
+1/13/2025 2:51:16 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.ProductList (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 2:51:21 PM:Request: GET /ProductHandler/EditProduct/1 - Controller: ProductHandlerController, Action: EditProduct
+
+1/13/2025 2:51:21 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.EditProduct (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 2:51:24 PM:Request: POST /ProductHandler/EditProduct/1 - Controller: ProductHandlerController, Action: EditProduct
+
+1/13/2025 2:51:25 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.EditProduct (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 2:51:27 PM:Request: GET /ProductHandler/ProductList - Controller: ProductHandlerController, Action: ProductList
+
+1/13/2025 2:51:27 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.ProductList (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 2:51:29 PM:Request: GET /ProductHandler/EditProduct/1 - Controller: ProductHandlerController, Action: EditProduct
+
+1/13/2025 2:51:29 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.EditProduct (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 2:51:36 PM:Request: POST /ProductHandler/EditProduct/1 - Controller: ProductHandlerController, Action: EditProduct
+
+1/13/2025 2:51:36 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.EditProduct (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 2:51:42 PM:Request: GET /ProductHandler/ProductList - Controller: ProductHandlerController, Action: ProductList
+
+1/13/2025 2:51:42 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.ProductList (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 2:52:36 PM:Request: GET /ProductHandler/ProductList - Controller: ProductHandlerController, Action: ProductList
+
+1/13/2025 2:52:36 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.ProductList (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 2:52:37 PM:Request: GET /ProductHandler/ProductList - Controller: ProductHandlerController, Action: ProductList
+
+1/13/2025 2:52:37 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.ProductList (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 2:52:37 PM:Request: GET /ProductHandler/ProductList - Controller: ProductHandlerController, Action: ProductList
+
+1/13/2025 2:52:37 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.ProductList (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 2:52:37 PM:Request: GET /ProductHandler/ProductList - Controller: ProductHandlerController, Action: ProductList
+
+1/13/2025 2:52:37 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.ProductList (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 2:52:46 PM:Request: GET /ProductHandler/EditProduct/1 - Controller: ProductHandlerController, Action: EditProduct
+
+1/13/2025 2:53:21 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.EditProduct (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 2:54:11 PM:Request: POST /ProductHandler/EditProduct/1 - Controller: ProductHandlerController, Action: EditProduct
+
+1/13/2025 3:02:51 PM:Request: GET / - Controller: AuthController, Action: SignIn
+
+1/13/2025 3:02:51 PM:Response: AuthController - DecBatchCodeFirstApproachImpl.Controllers.AuthController.SignIn (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 3:02:58 PM:Request: POST / - Controller: AuthController, Action: SignIn
+
+1/13/2025 3:02:59 PM:Response: AuthController - DecBatchCodeFirstApproachImpl.Controllers.AuthController.SignIn (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 3:02:59 PM:Request: GET /Dashboard/AdminDashboard - Controller: DashboardController, Action: AdminDashboard
+
+1/13/2025 3:02:59 PM:Response: DashboardController - DecBatchCodeFirstApproachImpl.Controllers.DashboardController.AdminDashboard (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 3:03:01 PM:Request: GET /ProductHandler/ProductList - Controller: ProductHandlerController, Action: ProductList
+
+1/13/2025 3:03:01 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.ProductList (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 3:03:02 PM:Request: GET /ProductHandler/EditProduct/1 - Controller: ProductHandlerController, Action: EditProduct
+
+1/13/2025 3:03:03 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.EditProduct (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 3:03:06 PM:Request: POST /ProductHandler/EditProduct/1 - Controller: ProductHandlerController, Action: EditProduct
+
+1/13/2025 3:03:06 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.EditProduct (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 3:03:06 PM:Request: GET /ProductHandler/ProductList - Controller: ProductHandlerController, Action: ProductList
+
+1/13/2025 3:03:06 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.ProductList (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 3:04:01 PM:Request: GET /ProductHandler/EditProduct/1 - Controller: ProductHandlerController, Action: EditProduct
+
+1/13/2025 3:04:01 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.EditProduct (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 3:04:14 PM:Request: POST /ProductHandler/EditProduct/1 - Controller: ProductHandlerController, Action: EditProduct
+
+1/13/2025 3:04:14 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.EditProduct (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 3:04:14 PM:Request: GET /ProductHandler/ProductList - Controller: ProductHandlerController, Action: ProductList
+
+1/13/2025 3:04:14 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.ProductList (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 3:04:16 PM:Request: GET /ProductHandler/ProductList - Controller: ProductHandlerController, Action: ProductList
+
+1/13/2025 3:04:16 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.ProductList (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 3:04:17 PM:Request: GET /ProductHandler/ProductList - Controller: ProductHandlerController, Action: ProductList
+
+1/13/2025 3:04:17 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.ProductList (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 3:05:37 PM:Request: GET /ProductHandler/ProductList - Controller: ProductHandlerController, Action: ProductList
+
+1/13/2025 3:05:37 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.ProductList (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 3:05:46 PM:Request: GET /ProductHandler/ProductList - Controller: ProductHandlerController, Action: ProductList
+
+1/13/2025 3:05:46 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.ProductList (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 3:05:46 PM:Request: GET /ProductHandler/ProductList - Controller: ProductHandlerController, Action: ProductList
+
+1/13/2025 3:05:46 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.ProductList (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 3:05:47 PM:Request: GET /ProductHandler/ProductList - Controller: ProductHandlerController, Action: ProductList
+
+1/13/2025 3:05:47 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.ProductList (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 3:05:47 PM:Request: GET /ProductHandler/ProductList - Controller: ProductHandlerController, Action: ProductList
+
+1/13/2025 3:05:47 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.ProductList (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 3:05:48 PM:Request: GET /ProductHandler/EditProduct/1 - Controller: ProductHandlerController, Action: EditProduct
+
+1/13/2025 3:05:48 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.EditProduct (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 3:05:50 PM:Request: POST /ProductHandler/EditProduct/1 - Controller: ProductHandlerController, Action: EditProduct
+
+1/13/2025 3:05:50 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.EditProduct (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 3:05:50 PM:Request: GET /ProductHandler/ProductList - Controller: ProductHandlerController, Action: ProductList
+
+1/13/2025 3:05:50 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.ProductList (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 3:05:53 PM:Request: GET /ProductHandler/EditProduct/1 - Controller: ProductHandlerController, Action: EditProduct
+
+1/13/2025 3:05:53 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.EditProduct (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 3:05:55 PM:Request: POST /ProductHandler/EditProduct/1 - Controller: ProductHandlerController, Action: EditProduct
+
+1/13/2025 3:05:55 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.EditProduct (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 3:05:55 PM:Request: GET /ProductHandler/ProductList - Controller: ProductHandlerController, Action: ProductList
+
+1/13/2025 3:05:55 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.ProductList (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 3:05:59 PM:Request: GET /ProductHandler/EditProduct/1 - Controller: ProductHandlerController, Action: EditProduct
+
+1/13/2025 3:05:59 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.EditProduct (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 3:06:03 PM:Request: POST /ProductHandler/EditProduct/1 - Controller: ProductHandlerController, Action: EditProduct
+
+1/13/2025 3:06:03 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.EditProduct (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 3:06:03 PM:Request: GET /ProductHandler/ProductList - Controller: ProductHandlerController, Action: ProductList
+
+1/13/2025 3:06:03 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.ProductList (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 3:06:36 PM:Request: GET /ProductHandler/EditProduct/1 - Controller: ProductHandlerController, Action: EditProduct
+
+1/13/2025 3:06:36 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.EditProduct (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 3:06:46 PM:Request: POST /ProductHandler/EditProduct/1 - Controller: ProductHandlerController, Action: EditProduct
+
+1/13/2025 3:08:24 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.EditProduct (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 3:08:32 PM:Request: POST /ProductHandler/EditProduct/1 - Controller: ProductHandlerController, Action: EditProduct
+
+1/13/2025 3:09:11 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.EditProduct (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 3:09:11 PM:Request: GET /ProductHandler/ProductList - Controller: ProductHandlerController, Action: ProductList
+
+1/13/2025 3:09:11 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.ProductList (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 3:10:44 PM:Request: GET /ProductHandler/EditProduct/1 - Controller: ProductHandlerController, Action: EditProduct
+
+1/13/2025 3:10:44 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.EditProduct (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 3:10:49 PM:Request: POST /ProductHandler/EditProduct/1 - Controller: ProductHandlerController, Action: EditProduct
+
+1/13/2025 3:11:14 PM:Request: GET / - Controller: AuthController, Action: SignIn
+
+1/13/2025 3:11:14 PM:Response: AuthController - DecBatchCodeFirstApproachImpl.Controllers.AuthController.SignIn (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 3:13:42 PM:Request: POST / - Controller: AuthController, Action: SignIn
+
+1/13/2025 3:13:44 PM:Response: AuthController - DecBatchCodeFirstApproachImpl.Controllers.AuthController.SignIn (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 3:13:44 PM:Request: GET /Dashboard/AdminDashboard - Controller: DashboardController, Action: AdminDashboard
+
+1/13/2025 3:13:44 PM:Response: DashboardController - DecBatchCodeFirstApproachImpl.Controllers.DashboardController.AdminDashboard (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 3:13:46 PM:Request: GET /ProductHandler/ProductList - Controller: ProductHandlerController, Action: ProductList
+
+1/13/2025 3:13:46 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.ProductList (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 3:13:47 PM:Request: GET /ProductHandler/EditProduct/1 - Controller: ProductHandlerController, Action: EditProduct
+
+1/13/2025 3:13:47 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.EditProduct (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 3:13:52 PM:Request: POST /ProductHandler/EditProduct/1 - Controller: ProductHandlerController, Action: EditProduct
+
+1/13/2025 3:14:17 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.EditProduct (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 3:14:17 PM:Request: GET /ProductHandler/ProductList - Controller: ProductHandlerController, Action: ProductList
+
+1/13/2025 3:14:17 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.ProductList (DecBatchCodeFirstApproachImpl) StatusCode: 200
+

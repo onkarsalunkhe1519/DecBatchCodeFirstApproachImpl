@@ -2,6 +2,7 @@
 using DecBatchCodeFirstApproachImpl.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace DecBatchCodeFirstApproachImpl.Controllers
 {
@@ -50,5 +51,48 @@ namespace DecBatchCodeFirstApproachImpl.Controllers
         {
             return View();
         }
+        public IActionResult EditProduct(int id)
+        {
+            var data = db.products.Find(id);
+            if (data == null)
+            {
+                return NotFound();
+            }
+            return View(data); // Pass the product data to the view
+        }
+
+        [HttpPost]
+        public IActionResult EditProduct(Product model, IFormFile Pimage)
+        {
+            var product = db.products.Find(model.Pid);
+            if (product == null)
+            {
+                return NotFound();
+            }
+
+            // Update fields
+            product.PName = model.PName;
+            product.Pcat = model.Pcat;
+            product.Price = model.Price;
+
+            // Handle image upload
+            if (Pimage != null)
+            {
+                string path = env.WebRootPath;
+                string filepath = "/Content/Images/" + Pimage.FileName;
+                string fullpath = path + filepath;
+
+                UploadFile(Pimage, fullpath); // Save the new file
+
+                // Update product image path
+                product.Pimg = filepath;
+            }
+
+            db.Update(product);
+            db.SaveChanges();
+
+            return RedirectToAction("ProductList");
+        }
+
     }
 }

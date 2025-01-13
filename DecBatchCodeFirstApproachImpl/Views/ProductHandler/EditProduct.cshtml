@@ -1,0 +1,24 @@
+﻿@model Product
+
+<form method="post" enctype="multipart/form-data">
+    Product Id <input type="text" readonly class="form-control" asp-for="Pid" /><br />
+
+    Product Name <input type="text" class="form-control" asp-for="PName" /><br />
+
+    Product Category
+    <select asp-for="Pcat" class="form-control">
+        <option>Electronics</option>
+        <option>Foods</option>
+        <option>Cloths</option>
+        <option>Others</option>
+    </select> <br />
+
+    Current Product Image:
+    <img src="@Model.Pimg" height="50" width="50" /><br />
+
+    Upload New Product Image <input type="file" class="form-control" name="Pimage" /><br />
+
+    Product Price <input type="text" class="form-control" asp-for="Price" /><br />
+
+    <input type="submit" class="btn btn-primary" value="Save Changes" />
+</form>
