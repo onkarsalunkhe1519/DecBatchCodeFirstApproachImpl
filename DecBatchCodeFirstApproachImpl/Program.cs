@@ -1,5 +1,7 @@
 using DecBatchCodeFirstApproachImpl.Data;
 using DecBatchCodeFirstApproachImpl.Filter;
+using DecBatchCodeFirstApproachImpl.Repository;
+using DecBatchCodeFirstApproachImpl.Service;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,7 +12,7 @@ builder.Services.AddControllersWithViews(options =>
     options.Filters.Add<CustomActionFilter>();
 }
 );
-
+builder.Services.AddScoped<IEmpService, EmpService>();
 builder.Services.AddDbContext<ApplicationDbContext>
     (
         options=>options.UseSqlServer
@@ -52,6 +54,6 @@ app.UseSession();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Auth}/{action=SignIn}/{id?}");
+    pattern: "{controller=Repo}/{action=Fetch}/{id?}");
 
 app.Run();

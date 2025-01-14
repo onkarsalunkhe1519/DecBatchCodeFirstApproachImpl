@@ -1512,3 +1512,55 @@
 
 1/13/2025 3:14:17 PM:Response: ProductHandlerController - DecBatchCodeFirstApproachImpl.Controllers.ProductHandlerController.ProductList (DecBatchCodeFirstApproachImpl) StatusCode: 200
 
+1/13/2025 4:48:31 PM:Request: GET / - Controller: RepoController, Action: Fetch
+
+1/13/2025 4:48:37 PM:Response: RepoController - DecBatchCodeFirstApproachImpl.Controllers.RepoController.Fetch (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 4:48:41 PM:Request: GET /Emp/AddEmp - Controller: EmpController, Action: AddEmp
+
+1/13/2025 4:48:41 PM:Response: EmpController - DecBatchCodeFirstApproachImpl.Controllers.EmpController.AddEmp (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 4:48:48 PM:Request: POST /Emp/AddEmp - Controller: EmpController, Action: AddEmp
+
+1/13/2025 4:48:48 PM:Response: EmpController - DecBatchCodeFirstApproachImpl.Controllers.EmpController.AddEmp (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 4:48:48 PM:Request: GET /Emp/Index - Controller: EmpController, Action: Index
+
+1/13/2025 4:48:48 PM:Response: EmpController - DecBatchCodeFirstApproachImpl.Controllers.EmpController.Index (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 4:48:48 PM:Request: GET /Auth/SignIn - Controller: AuthController, Action: SignIn
+
+1/13/2025 4:48:48 PM:Response: AuthController - DecBatchCodeFirstApproachImpl.Controllers.AuthController.SignIn (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 4:48:50 PM:Request: GET /Emp/AddEmp - Controller: EmpController, Action: AddEmp
+
+1/13/2025 4:48:50 PM:Response: EmpController - DecBatchCodeFirstApproachImpl.Controllers.EmpController.AddEmp (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 4:48:52 PM:Request: GET / - Controller: RepoController, Action: Fetch
+
+1/13/2025 4:48:52 PM:Response: RepoController - DecBatchCodeFirstApproachImpl.Controllers.RepoController.Fetch (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 4:57:07 PM:Request: GET /Emp/AddEmp - Controller: EmpController, Action: AddEmp
+
+1/13/2025 4:57:07 PM:Response: EmpController - DecBatchCodeFirstApproachImpl.Controllers.EmpController.AddEmp (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 4:57:45 PM:Request: POST /Emp/AddEmp - Controller: EmpController, Action: AddEmp
+
+1/13/2025 4:57:46 PM:Response: EmpController - DecBatchCodeFirstApproachImpl.Controllers.EmpController.AddEmp (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 4:57:46 PM:Request: GET /Emp/Index - Controller: EmpController, Action: Index
+
+1/13/2025 4:57:46 PM:Response: EmpController - DecBatchCodeFirstApproachImpl.Controllers.EmpController.Index (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 4:57:46 PM:Request: GET /Auth/SignIn - Controller: AuthController, Action: SignIn
+
+1/13/2025 4:57:46 PM:Response: AuthController - DecBatchCodeFirstApproachImpl.Controllers.AuthController.SignIn (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 4:57:48 PM:Request: GET /Emp/AddEmp - Controller: EmpController, Action: AddEmp
+
+1/13/2025 4:57:48 PM:Response: EmpController - DecBatchCodeFirstApproachImpl.Controllers.EmpController.AddEmp (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
+1/13/2025 4:57:50 PM:Request: GET / - Controller: RepoController, Action: Fetch
+
+1/13/2025 4:57:50 PM:Response: RepoController - DecBatchCodeFirstApproachImpl.Controllers.RepoController.Fetch (DecBatchCodeFirstApproachImpl) StatusCode: 200
+
