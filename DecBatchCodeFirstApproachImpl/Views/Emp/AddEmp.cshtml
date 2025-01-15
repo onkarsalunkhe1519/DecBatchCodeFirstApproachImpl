@@ -6,6 +6,12 @@
     Email<input type="text" class="form-control" asp-for="Email" placeholder="Enter Email" /><br />
 
     Salary<input type="text" class="form-control" asp-for="Salary" placeholder="Enter Salary" /><br />
-
+    Department
+    <select asp-for="Department" class="form-control">
+        <option>Hr</option>
+        <option>User</option>
+        <option>Manager</option>
+        <option>Others</option>
+    </select> <br />
     <input type="submit" class="btn btn-primary" value="Save"/>
 </form>

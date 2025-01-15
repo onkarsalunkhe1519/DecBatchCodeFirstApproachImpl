@@ -1,12 +1,42 @@
 ﻿
 
 @model List<Employee>
-
+<partial name="Notification" />
 
 
 <br />
 <a asp-controller="Emp" asp-action="AddEmp" class="btn btn-info">Add Emp</a>
 <br />
+<br />
+<br />
+<form method="post" asp-action="Fetch" asp-controller="Repo">
+    <input type="text" name="str" placeholder="Search string" />
+    <label>Select Dept</label>
+    <select name="dept" class="form-control">
+        <option value="def">-- Select</option>
+        <option>IT</option>
+        <option>Hr</option>
+        <option>Manager</option>
+        <option>User</option>
+    </select> <br />
+
+    <label>Select No</label>
+    <select name="no" class="form-control">
+        <option value="0">-- Select</option>
+        <option>1</option>
+        <option>5</option>
+        <option>10</option>
+    </select> <br />
+
+    <label>Sort by</label>
+    <select name="sort" class="form-control">
+        <option value="def">-- Select</option>
+        <option value="asc">Ascending</option>
+        <option value="dsc">Descending</option>
+    </select> <br />
+
+    <input type="submit" value="Search" class="btn btn-primary" />
+</form>
 
 <table class="table">
     <thead>
@@ -15,6 +45,7 @@
             <th scope="col">Name</th>
             <th scope="col">Email</th>
             <th scope="col">Salary</th>
+            <th scope="col">Department</th>
             <th scope="col">Action</th>
         </tr>
     </thead>
@@ -26,6 +57,10 @@
                 <td>@d.Name</td>
                 <td>@d.Email</td>
                 <td>@d.Salary</td>
+                <td>@d.Department</td>
+                <td><a asp-action="Delete" asp-route-id="@d.Id">Delete</a>
+                    <a asp-action="EditEmp" asp-route-id="@d.Id">Edit</a>
+                </td>
                 
             </tr>
         }
